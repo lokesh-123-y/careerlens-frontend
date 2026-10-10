@@ -1,16 +1,72 @@
-# React + Vite
+# CareerLens – AI Career & Job Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+CareerLens is a web-based career management platform that helps job seekers upload resumes, explore job opportunities, track applications, and identify skill gaps.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User authentication and login
+- Resume upload
+- Resume skill extraction
+- Job listings and recommendations
+- Skill-based job match percentage
+- Missing skills identification
+- Job application submission
+- Application status tracking
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js, Vite, JavaScript, CSS
+- **Backend:** Java, Spring Boot
+- **Database:** MySQL
+- **Authentication:** JWT
+- **Build Tool:** Maven
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+careerlens-frontend/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- CareerLens backend running locally
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+## Backend
+
+Backend repository: https://github.com/lokesh-123-y/careerlens-api
+
+## Future Improvements
+
+- Improved resume-to-job matching
+- More personalized job recommendations
+- Enhanced recruiter and administrator dashboards
+
+## Author
+
+Lokesh
+
+## License
+
+This project is currently available for educational and portfolio purposes.
